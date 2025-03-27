@@ -276,10 +276,10 @@
                 <p class="text-gray-400 mt-2">Copyright © 2025 Vladimir Clint Catigan. All rights reserved.</p>
               </div>
               <div class="flex space-x-6">
-                <a href="https://github.com/notaprogrammervlad" class="text-gray-400 hover:text-white transition-colors">
+                <a href="https://github.com/notaprogrammervlad/" class="text-gray-400 hover:text-white transition-colors">
                   <GithubIcon class="h-6 w-6" />
                 </a>
-                <a href="www.linkedin.com/in/vcgcatigan" class="text-gray-400 hover:text-white transition-colors">
+                <a href="https://www.linkedin.com/in/vcgcatigan/" class="text-gray-400 hover:text-white transition-colors">
                   <LinkedinIcon class="h-6 w-6" />
                 </a>
                 <a href="https://www.instagram.com/dmir.klnt/" class="text-gray-400 hover:text-white transition-colors">
