@@ -60,7 +60,7 @@
                 <h1 class="text-4xl md:text-5xl font-bold mb-4 dark:text-white">Hi, I'm <span class="text-emerald-600 dark:text-emerald-400">Vladimir</span></h1>
                 <h2 class="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-6">Backend Developer</h2>
                 <p class="text-gray-600 dark:text-gray-400 mb-8 max-w-lg">
-                  I build exceptional and accessible digital experiences for the web.
+                  I make the behind-the-scenes magic happen so apps don’t break.
                 </p>
                 <div class="flex space-x-4 justify-center md:justify-start">
                   <a href="#contact" class="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-md transition-colors">
@@ -90,12 +90,10 @@
               </div>
               <div class="md:w-1/2 md:pl-12">
                 <p class="text-gray-600 dark:text-gray-300 mb-6">
-                    I'm a passionate backend developer with a strong focus on building efficient and scalable systems.
-                    Currently a 3rd-year BSc-IT student, I specialize in developing robust APIs, managing databases, and ensuring seamless server-side performance.
+                  Hey, I’m Vlad — a backend developer who loves building fast, reliable, and scalable systems. I'm currently a 3rd-year BSc-IT student, diving deep into APIs, databases, and all things server-side. I focus on writing clean code that keeps things running smoothly behind the scenes, so frontends can shine without breaking a sweat.
                 </p>
                 <p class="text-gray-600 dark:text-gray-300 mb-6">
-                    My approach to development combines technical expertise with a strong focus on performance and scalability, ensuring that the systems I build are not only efficient but also reliable and maintainable.
-                </p>
+                  I specialize in building backend systems that are efficient, scalable, and built to last. With a focus on performance and reliability, I ensure that the systems I develop not only meet the needs of today but can also handle tomorrow's challenges. I aim to create clean, maintainable code that ensures seamless performance, allowing the front-end to shine without any server-side hiccups.                </p>
                 <div class="flex flex-wrap gap-2">
                     <span v-for="tag in ['Vue.js', 'MySQL', '.NET (C#)','Backend Development']" :key="tag" class="bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-300 px-3 py-1 rounded-full text-sm">
                     {{ tag }}
@@ -322,7 +320,7 @@
   
   // Initialize dark mode from localStorage or system preference
   onMounted(() => {
-    // Check localStorage first
+  // Check localStorage first
     const savedMode = localStorage.getItem('darkMode')
     
     if (savedMode !== null) {
